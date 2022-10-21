@@ -5,7 +5,7 @@ using UnityEngine;
 public class main : MonoBehaviour
 {
     int a = 0;
-    fload speed = 0.9f;
+    float speed = 0.9f;
 
     void Start()
     {
