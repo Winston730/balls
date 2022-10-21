@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class main : MonoBehaviour
 {
-    // Start is called before the first frame update
+    int a = 0;
+    fload speed = 0.9f;
+
     void Start()
     {
         
@@ -13,6 +15,10 @@ public class main : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+       
+    }
+    void OnCollisionStay2D(Collision2D other)
+    {
+       
     }
 }
